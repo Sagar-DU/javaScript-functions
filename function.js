@@ -25,4 +25,9 @@ function bringShingara(taka){
     return shingaraQuantity;
 }
 
-console.log(bringShingara(200));
+// Viewing Function return
+// console.log(bringShingara(200));
+
+var treat = 250;
+var shingaraShobarJonno = bringShingara(treat);
+console.log(shingaraShobarJonno);
