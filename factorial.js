@@ -34,4 +34,19 @@ while (true) {
 }
 
 //Output
-console.log (factorial);
+// console.log (factorial);
+
+//Factorial with while loop in Function
+function factFuncWhil (x){
+    let i = 1;
+    let n = 1;
+    while(true){
+        n=n*i;
+        i++;
+        if (i > x){
+            return n;
+        }
+    }
+}
+
+console.log(factFuncWhil(5));
