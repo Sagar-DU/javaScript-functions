@@ -28,6 +28,18 @@ function bringShingara(taka){
 // Viewing Function return
 // console.log(bringShingara(200));
 
-var treat = 250;
-var shingaraShobarJonno = bringShingara(treat);
-console.log(shingaraShobarJonno);
+// Return value can be seen this way too 
+// var treat = 250;
+// var shingaraShobarJonno = bringShingara(treat);
+// console.log(shingaraShobarJonno);
+
+// Function with multiple parameter 
+function twoNum (num1, num2) {
+    console.log(num1, num2);
+    return num1+num2;
+}
+
+var firstNumber = 32;
+var secondNumber = 43;
+var sum = twoNum (firstNumber, secondNumber);
+console.log(sum);
