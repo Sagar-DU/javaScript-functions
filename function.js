@@ -34,12 +34,32 @@ function bringShingara(taka){
 // console.log(shingaraShobarJonno);
 
 // Function with multiple parameter 
-function twoNum (num1, num2) {
-    console.log(num1, num2);
+function summation (num1, num2) {
     return num1+num2;
 }
 
 var firstNumber = 32;
 var secondNumber = 43;
-var sum = twoNum (firstNumber, secondNumber);
-console.log(sum);
+var sum = summation (firstNumber, secondNumber);
+// console.log("summation of the two number is", sum);
+
+function substract (num1, num2) {
+    return num1 - num2;
+}
+var substraction = substract(secondNumber, firstNumber);
+// console.log("substraction of the two number is", substraction);
+
+function multiple (x, y) {
+    return x*y;
+}
+var number1 = 10;
+var number2 = 34;
+var multiplication = multiple(number1, number2);
+// console.log("multiplication of the two number is", multiplication);
+
+function divide (x,y){
+    return y / x;
+}
+number2 = 5;
+var division = divide (number2, number1);
+console.log("Division of the two number is", division);
