@@ -62,4 +62,12 @@ function divide (x,y){
 }
 number2 = 5;
 var division = divide (number2, number1);
-console.log("Division of the two number is", division);
+// console.log("Division of the two number is", division);
+
+function getReminder(number1, number2) {
+    return number1 % number2;
+  }
+  
+  const reminder = getReminder(12, 2);
+  
+  console.log(reminder);
