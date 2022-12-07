@@ -14,4 +14,6 @@ year = 2020;
 year = 2100;
 year = 2098;
 
+year = 2100;
+
 isThisALeapYear(year);
